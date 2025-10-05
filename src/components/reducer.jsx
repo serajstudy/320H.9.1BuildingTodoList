@@ -1,4 +1,4 @@
-import {Action} from "./action";
+import {ACTIONS} from "./action";
 
 
 export default function todoReducer (todos,action){
@@ -37,7 +37,7 @@ export default function todoReducer (todos,action){
 
 
 
-     }
+     
 
 
     
@@ -45,5 +45,3 @@ export default function todoReducer (todos,action){
     
     
 
-
-}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ACTIONS } from "./actions";
+import { ACTIONS } from "./action";
 
 
     export default function TodoItem ({todo, dispatch}){
