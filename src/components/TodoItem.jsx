@@ -39,15 +39,11 @@ import { ACTIONS } from "./action";
           <button
             className="btn btn-secondary btn-sm me-1"
             onClick={() => dispatch({ type: ACTIONS.EDIT_TODO, payload: { id: todo.id } })}
-          >
-            Edit
-          </button>
+          > Edit </button>
           <button
             className="btn btn-danger btn-sm"
             onClick={() => dispatch({ type: ACTIONS.DELETE_TODO, payload: { id: todo.id } })}
-          >
-            Delete
-          </button>
+          > Delete </button>
         </>
       )}
     </div>
